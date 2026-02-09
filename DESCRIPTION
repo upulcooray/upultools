@@ -14,5 +14,5 @@ Imports:
     rlang,
     tableone,
     utils
-URL: https://github.com/upulcooray/mytools
-BugReports: https://github.com/upulcooray/mytools/issues
+URL: https://github.com/upulcooray/upultools
+BugReports: https://github.com/upulcooray/upultools/issues
