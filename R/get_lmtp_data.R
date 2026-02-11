@@ -38,7 +38,7 @@
 #' # 'age' will be ignored by encoding because it has >6 levels (all unique)
 #' # 'sex' and 'status' will become 0/1
 #' # 'education' will become dummy columns
-#' clean_df <- process_covariates_lmtp(df, c("sex", "education", "status", "age"))
+#' clean_df <- get_lmtp_data(df, c("sex", "education", "status", "age"))
 #' }
 #'
 get_lmtp_data <- function(data, covs) {
